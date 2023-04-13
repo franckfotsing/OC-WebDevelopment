@@ -1,5 +1,5 @@
 a {
-    color: black;
+    color: #242424;
     text-decoration: none;
 }
 
@@ -14,12 +14,30 @@ h1 {
     font-family: 'Montserrat', sans-serif;
 }
 
-p {
+h2 {
+    color: #f9f8ff;
+  }  
+
+p,
+li {
     font-size: 1.1em;
     font-family: 'Manrope', sans-serif;
+    color: #f9f8ff;
 }
 
 body {
     font-family: 'Manrope', sans-serif;
     font-size: 1em;
+    background-color: #1F2039;
+}
+
+.body_header,
+.body_footer {
+    background-color: white;
+}
+
+.body_extra_links {
+    background: linear-gradient(#8e86b5, #acaeed);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
 }
