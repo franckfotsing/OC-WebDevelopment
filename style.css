@@ -40,4 +40,12 @@ body {
     background: linear-gradient(#8e86b5, #acaeed);
     color: white;
     font-family: 'Montserrat', sans-serif;
+    border-radius: 50px;
+}
+
+/*Add a Border line*/
+.border_content {
+    border-right: 1px solid, #A5B4FC;
+    border-bottom: 1px solid #A5B4FC;
+
 }
