@@ -1,3 +1,7 @@
+* {
+    margin:0;
+}
+
 a {
     color: #242424;
     text-decoration: none;
@@ -34,6 +38,7 @@ body {
 header,
 footer {
     background-color: white;
+    padding: 20px 50px ;
 }
 
 .body_extra_links {
@@ -41,14 +46,17 @@ footer {
     color: white;
     font-family: 'Montserrat', sans-serif;
     border-radius: 50px;
+
 }
 
 /*Add a Border line*/
 .border_content {
     border-right: 1px solid, #A5B4FC;
     border-bottom: 1px solid #A5B4FC;
+    padding: 50px;
 
 }
+
 
 /*Add some dynamics interactions*/
 
@@ -67,4 +75,24 @@ header img:hover {
 
 footer img:hover {
     opacity: 0.5;
+}
+
+/*Add some margin and padding properties*/
+
+section {
+    padding: 80px;
+}
+
+.about_main {
+    width: 50%;
+    margin: auto;
+}
+
+
+.border_content h2 {
+    margin-top: 30px;
+}
+
+.border_content ul {
+    margin-top: 30px;
 }
