@@ -31,8 +31,8 @@ body {
     background-color: #1F2039;
 }
 
-.body_header,
-.body_footer {
+header,
+footer {
     background-color: white;
 }
 
@@ -61,10 +61,10 @@ a:hover {
     background: linear-gradient(#696484, #8788BA );
 }
 
-.body_header img:hover {
+header img:hover {
     opacity: 0.5;
 }
 
-.body_footer img:hover {
+footer img:hover {
     opacity: 0.5;
 }
