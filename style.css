@@ -41,12 +41,21 @@ footer {
   padding: 20px 50px;
 }
 
-.body_extra_links {
+.cta {
+  display: inline-block;
   background: linear-gradient(#8e86b5, #acaeed);
   color: white;
   font-family: "Montserrat", sans-serif;
   border-radius: 50px;
+  padding: 20px 30px;
+  margin-top: 30px;
 }
+
+.cta:hover {
+    background: linear-gradient(#696484, #8788ba);
+    text-decoration: none;
+  }
+
 
 /*Add a Border line*/
 .border_content {
@@ -136,6 +145,10 @@ nav a {
   margin-bottom: 15px;
 }
 
+.home_images img {
+  border-radius: 10px;
+}
+
 .start_home {
   display: flex;
   flex-direction: row;
@@ -160,7 +173,6 @@ nav a {
   margin-top: 50px;
 }
 
-
 .grid_landscapes {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -169,11 +181,11 @@ nav a {
 }
 
 .grid_portraits {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 300px 300px;
-    gap: 15px;
-  }
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 300px 300px;
+  gap: 15px;
+}
 
 .grid_landscapes img,
 .grid_portraits img {
@@ -181,4 +193,27 @@ nav a {
   height: 100%;
   object-fit: cover;
   border-radius: 10px;
+}
+
+.links_container_picture {
+  position: relative;
+}
+
+.photo-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: none;
+}
+
+.links_container_picture:hover .photo-hover {
+  display: flex;
 }
