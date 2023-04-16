@@ -1,0 +1,46 @@
+.home_images {
+  background-color: white;
+  padding: 80px;
+}
+
+.home_images h2 {
+  color: #242424;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.home_images div {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.home_images img {
+  border-radius: 10px;
+}
+
+.start_home {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  align-items: center;
+  margin: auto;
+}
+
+.start_home h1 {
+  margin-bottom: 15px;
+}
+
+.start_home p {
+  margin-bottom: 30px;
+}
+
+.start_home div {
+  padding-right: 80px;
+}
+
+.home_images img:hover {
+  opacity: 0.5;
+}
