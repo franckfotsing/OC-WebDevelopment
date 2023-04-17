@@ -35,3 +35,35 @@
   text-decoration: none;
   background: linear-gradient(#696484, #8788ba);
 }
+
+table {
+  color: white;
+  text-align: center;
+  width: 20%;
+  border-collapse: collapse;
+  margin: auto;
+}
+
+td,
+th {
+  padding: 15px;
+  border: 1px solid #a5b4fc;
+}
+
+td {
+  padding: 50px;
+}
+
+.section_rates h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 80px;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
