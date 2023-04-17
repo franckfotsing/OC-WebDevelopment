@@ -45,7 +45,6 @@
   opacity: 0.5;
 }
 
-
 .section-contact h2 {
   color: #a5b4fc;
   text-align: center;
@@ -84,8 +83,45 @@ label {
   margin-bottom: 10px;
 }
 
-input[type='submit'] {
+input[type="submit"] {
   width: 200px;
   margin: auto;
   margin-top: 30px;
+}
+
+@media screen and (max-width: 996px) {
+  .start_home {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .start_home div {
+    padding-right: 0;
+    text-align: center;
+    order: 2;
+  }
+
+  .start_home img {
+    order: 1;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .home_images {
+    padding: 20px;
+  }
+
+  .home_images div {
+    flex-direction: column;
+  }
+
+  .section-contact {
+    padding: 50px 20px;
+  }
+
+  .form_name_email {
+    flex-direction: column;
+    gap: 0;
+  }
 }

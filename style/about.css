@@ -10,10 +10,6 @@
   padding: 50px;
 }
 
-.border_content_startPage p {
-  margin-top: 50px;
-}
-
 .border_content h2 {
   margin-top: 30px;
 }
@@ -66,4 +62,22 @@ h2 {
 h1,
 h2 {
   text-align: center;
+}
+
+@media screen and (max-width: 996px) {
+  .section_rates {
+    display: none;
+  }
+
+  .border_content {
+    border-right: none;
+    border-bottom: none;
+    justify-content: center;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .border_content + div {
+    text-align: left;
+  }
 }
